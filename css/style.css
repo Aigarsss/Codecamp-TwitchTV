@@ -1,0 +1,66 @@
+
+/* global */
+
+body {
+	font-size: 15px;
+	line-height: 1.5;
+	margin:0;
+	padding: 0;
+	background: #FFA500;
+}
+
+body, textarea, input {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+	padding-top:12.5%;
+}
+
+.clear {
+	clear:both;
+}
+
+/* specific */
+
+
+.frame {
+	width: 300px;
+	margin: auto;
+	background: #ffffff;
+	padding: 15px;
+}
+
+#img {
+	width: 60px;
+	height: 60px;
+	background: black;
+	border-radius: 50%;
+	float: left;
+	margin: 5px;
+}
+
+#status {
+	text-align: right;
+	color: #00b200;
+	font-style: italic;
+	padding-right: 15px;
+	font-size: 12px;
+	margin: 0px;
+}
+
+
+.button {
+	background-color: #1E90FF;
+	border-style: none;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+}
