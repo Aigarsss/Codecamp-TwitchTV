@@ -108,24 +108,24 @@ var twitchAPI = [
 ];
 
 //online status
-/*
-if (twitchAPI[3].error === "Not Found")
-{
-$("#status").html("error"); 
-}
- else if (twitchAPI[0].stream != null) 
-{
-$("#status").html("online");
-$("#info").html(twitchAPI[0].stream.status);
-} else if (twitchAPI[0].stream == null) 
-{
-$("#status").html("offline"); 
-} ;
 
-//user
+// if (twitchAPI[0].error === "Not Found")
+// {
+// $("#status").html("error"); 
+// }
+//  else if (twitchAPI[0].stream != null) 
+// {
+// $("#status").html("online");
+// $("#info").html(twitchAPI[0].stream.status);
+// } else if (twitchAPI[0].stream == null) 
+// {
+// $("#status").html("offline"); 
+// } ;
 
-$("#user").html('<a href="'+twitchAPI[0].stream.url+'">'+twitchAPI[0].stream.display_name +'</a>');
-*/
+// //user
+
+// $("#user").html('<a href="'+twitchAPI[0].stream.url+'">'+twitchAPI[0].stream.display_name +'</a>');
+
 
 }); //end
 
