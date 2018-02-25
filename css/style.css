@@ -17,7 +17,8 @@ body, textarea, input {
 	margin: auto;
 	width: 80%;
 	overflow: hidden;
-	padding-top:12.5%;
+	padding-top:12.5%;	
+	padding-bottom:12.5%;
 }
 
 .clear {
@@ -34,16 +35,33 @@ body, textarea, input {
 	padding: 15px;
 }
 
-#img {
+img {
 	width: 60px;
 	height: 60px;
-	background: black;
 	border-radius: 50%;
 	float: left;
-	margin: 5px;
+	margin: 10px 25px 30px 5px;
+
 }
 
-#status {
+#user {
+	margin: 15px 0px 10px 0px;
+	font-size: 20px;
+}
+
+#user a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#info {
+	color: #A9A9A9;
+	font-style: italic;
+	font-size: 13px;
+	margin: 5px 0px 0px 0px;
+}
+
+#statusY {
 	text-align: right;
 	color: #00b200;
 	font-style: italic;
@@ -52,6 +70,14 @@ body, textarea, input {
 	margin: 0px;
 }
 
+#statusN {
+	text-align: right;
+	color: #ca0000;
+	font-style: italic;
+	padding-right: 15px;
+	font-size: 12px;
+	margin: 0px;
+}
 
 .button {
 	background-color: #1E90FF;
@@ -61,6 +87,3 @@ body, textarea, input {
 	margin-bottom: 15px;
 }
 
-a {
-	text-decoration: none;
-}
