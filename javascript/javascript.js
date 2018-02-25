@@ -1,11 +1,3 @@
-
-//https://codepen.io/zoite/full/GJKRxZ
-// https://wind-bow.gomix.me/twitch-api 
-// /users/:user, /channels/:channel, /streams/:stream , ?callback=?
-// console.log("https://wind-bow.gomix.me/twitch-api/users/" + array[3]);
-// console.log("https://wind-bow.gomix.me/twitch-api/channels/" + array[3]);
-// console.log("https://wind-bow.gomix.me/twitch-api/streams/" + array[3]);
-
 var array = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
 
 array.forEach(function(listItem) {
@@ -41,16 +33,3 @@ array.forEach(function(listItem) {
 
 
   });
-
-
-
-
-
-$(document).ready(function() {
-}); //end
-
-
-
-
-
-
